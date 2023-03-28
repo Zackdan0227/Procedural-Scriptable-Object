@@ -54,10 +54,14 @@ public class Player : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.CompareTag("Enemy"))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+		// if (other.CompareTag("Enemy"))
+        // {
+        //     Cursor.lockState = CursorLockMode.None;
+        //     Cursor.visible = true;
+        // }
+        if(other.CompareTag("coin")){
+            Destroy(other.gameObject);
         }
 	}
+
 }

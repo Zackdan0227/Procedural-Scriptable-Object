@@ -1,1 +1,1 @@
-E:\Unity project\IPG_2023\Example7_ProceduralLabyrinth
+E:\Unity project\Procedural-Scriptable-Object
